@@ -1,0 +1,78 @@
+h1 {
+    font-family: var(--fonte-cabecalho);
+    font-weight: 700;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    font-weight: 300;
+}
+
+.ícone_menu_home{
+    width: 40px;
+    height: 40px;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    background-color: none;
+}
+
+.mensagem-boas-vindas {
+    display: flex;
+    align-items: center; 
+    gap: 5em;          
+    font-family: var(--fonte-cabecalho);
+    font-weight: 700;
+    background-color: var(--cor-header);
+}
+
+.slogan{
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    color: rgb(12, 10, 10);
+    font-weight: 400;
+    font-size: 1.9em;
+    padding-top: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+/* container de ações */
+.acoes {
+  display: flex;
+  flex-direction: column;        /* empilha um embaixo do outro */
+  gap: 16px;                     /* espaço entre os botões */
+}
+
+button {
+  padding: 12px 24px ;
+  margin: 1.5em ; 
+  border: none;
+  border-radius: 8px;
+  background: #2d6a4f;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+
+.button-vermelho{
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #880000;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #1b4332;
+}
+
+.button-vermelho:hover{
+    background: #4e0101;
+}
