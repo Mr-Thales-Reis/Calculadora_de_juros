@@ -1,0 +1,119 @@
+h1 {
+    font-family: var(--fonte-cabecalho);
+    font-weight: 700;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    font-weight: 300;
+}
+
+
+.mensagem-boas-vindas {
+    display: flex;        
+    font-family: var(--fonte-cabecalho);
+    font-weight: 700;
+    background-color: var(--cor-header);
+}
+
+.mensagem_personalizada{
+  padding: 1.1em 0 0 2.5em;
+}
+
+.slogan{
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    color: rgb(12, 10, 10);
+    font-weight: 400;
+    font-size: 1.9em;
+    padding-top: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+.acoes {
+  display: flex;
+  flex-direction: column;    
+  gap: 16px;                     
+}
+
+button {
+  padding: 12px 3.1em ;
+  margin: 1.5em ; 
+  border: none;
+  border-radius: 8px;
+  background: #2d6a4f;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.button-vermelho{
+  padding: 12px 3.5em;
+  border: none;
+  border-radius: 8px;
+  background: #880000;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #1b4332;
+}
+
+.button-vermelho:hover{
+    background: #4e0101;
+}
+
+.ícone_menu_home {
+  width: 40px;
+  height: 40px;
+  margin: 0.5em;
+  cursor: pointer;
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  top: 60px;       
+  left: 10px;       
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: none;    
+  z-index: 100;
+}
+
+.mensagem-boas-vindas:hover .card {
+  display: block;
+}
+
+.card input {
+  padding: 0.5em;
+  margin-top: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 10em;
+}
+
+.card .button-input{
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card .button-input:hover {
+  background: #555;
+}
+

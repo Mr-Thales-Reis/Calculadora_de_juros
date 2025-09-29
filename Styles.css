@@ -1,0 +1,66 @@
+@import url(resset.css);
+@import url(styles/home.css);
+@import url(styles/background-especial.css);
+@import url(styles/footer.css);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --fonte-cabecalho: "Homenaje", sans-serif;
+    --fonte-padrao: "Roboto", sans-serif;
+
+    --cor-header: #1DA1F2;
+    --cor-neutra: ;
+
+    --container-max-width: 1200px;
+    --container-width: 90%;
+    --container-padding: 24px;
+    --container-radius: 12px;
+    --container-bg: #ffffff;
+    --container-shadow: 0 6px 18px rgba(0,0,0,0.12); /* sombra padrão */
+    --container-border: 1px solid rgba(0,0,0,0.04);  /* borda sutil (opcional) */
+}
+
+
+    body {
+      min-height: 100vh;       /* ocupar 100% da altura da tela */
+      display: flex;           /* transforma body em flex container */
+      flex-direction: column;  /* organiza em coluna */
+    }
+
+    main {
+      flex: 1; /* ocupa o espaço todo disponível */
+      padding: 20px;
+    }
+
+
+.titulo-projeto{
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    color: rgb(240, 234, 234);
+    font-weight: 700;
+    font-size: 3em;
+    padding-top: 1.5em;
+}
+
+.container{
+  max-width: var(--container-max-width);
+  width: var(--container-width);
+  margin: 24px auto;
+  padding: var(--container-padding);
+  background: var(--container-bg);
+  border-radius: var(--container-radius);
+  box-shadow: var(--container-shadow);
+  border: var(--container-border);
+  overflow: hidden; /* importante para evitar que filhos "vazem" além dos cantos */
+}
