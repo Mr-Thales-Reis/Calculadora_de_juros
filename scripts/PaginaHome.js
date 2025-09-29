@@ -12,3 +12,4 @@ buttonSalvar.addEventListener("click", evento => {
     mensagem.textContent = `Olá, ${inputNomeUsuario.value}, seja bem-vindo! 👑`
 
 })
+
