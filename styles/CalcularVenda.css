@@ -1,0 +1,30 @@
+body {
+    font-size: 1.1em;
+    text-align: center;
+}
+.Cabeçalho{
+    display: flex;        
+    font-weight: 700;
+    background-color: #6EBF34;
+}
+.titulo_projeto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 4.5em;
+    font-family: var(--fonte-cabecalho);
+    color: white;
+}
+
+.sub-titulo{
+    background-color: #38A67E;
+    color: white;
+    height: 2em;
+    padding-top: 0.5em;
+    font-family: var(--fonte-padrao);
+}
+
+.Orientação{
+
+}
+
